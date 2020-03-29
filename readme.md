@@ -1,6 +1,6 @@
 安裝前進入root模式  
 一般為 sudo su  
-安裝ngnix|安裝php7.2|安裝MariaDB  install.txt  
+安裝nginx|安裝php7.2|安裝MariaDB  install.txt  
 安裝webmin後台  webmin.txt  
   
 #給予使用者所有sql全縣  
