@@ -8,4 +8,5 @@ wget http://www.webmin.com/jcameron-key.asc
 sudo apt-key add jcameron-key.asc
 sudo apt update 
 sudo apt list --upgradable
+sudo rm -r jcameron-key.asc
 sudo apt install webmin 
