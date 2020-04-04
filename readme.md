@@ -23,7 +23,7 @@
 mail 安裝可摻考 https://www.linuxpilot.com/open-source-email-server-hands-on-iredmail  
 
 # 給予使用者所有sql全縣  
-`Grant All Privileges On \*.\* To \*@localhost Identified By '\*' With Grant Option;` *號可以任意更換  
+`Grant All Privileges On *.* To *@localhost Identified By '*' With Grant Option;` *號可以任意更換  
   
 # 讓webmin可以外網訪問，這方法不安全慎用  
 `sudo vim /etc/webmin`  
