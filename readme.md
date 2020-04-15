@@ -12,7 +12,13 @@
 
 安裝webmin後台 使用webmin.sh  
 
+安裝寶塔後台 使用baota.sh  
+
 安裝電郵系統 使用mail.sh  
+
+安裝遠端 使用vnc.sh  
+
+# 安裝完寶塔面板後可以進入頁面安裝服務套件，不必再安裝web.sh
 
 # mail.sh 使用事項  
 因為它會打亂網站，所以要另找其他伺服器製作，或先安裝完再做其他網站架設。  
@@ -28,11 +34,12 @@ mail 安裝可參考 https://www.linuxpilot.com/open-source-email-server-hands-o
 `Grant All Privileges On *.* To 123@localhost Identified By '456' With Grant Option;`  
 
 # 讓webmin可以外網訪問，這方法不安全慎用  
-> 使用vim `sudo vim /etc/webmin`  
-> 使用nano `sudo nano /etc/webmin`  
+> 使用vim   `sudo vim /etc/webmin`  
+> 使用nano  `sudo nano /etc/webmin`  
 > 使用gedit `sudo gedit /etc/webmin`  
 
 找到 "ssl=1" 把它改成 "ssl=0" ，*1*為啟用*0*為停用。  
 
-# 安裝vnc可參考  
-https://go-linux.blogspot.com/2019/01/ubuntu-1804-vnc-server.html  
+# vnc  
+安裝完成後執行`vncserver`創建密碼，需低於八位數
+vnc安裝可參考  https://www.tecmint.com/install-and-configure-vnc-server-on-ubuntu/  

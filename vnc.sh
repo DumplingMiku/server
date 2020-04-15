@@ -3,4 +3,4 @@ if [[ `id -u` -eq 0 ]] ; then
     exit 1 ;
 fi
 
-sudo apt install vnc4server xfce4 xfce4-goodies
+ sudo apt install tigervnc-standalone-server tigervnc-common tigervnc-xorg-extension tigervnc-viewer
