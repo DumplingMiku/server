@@ -34,9 +34,9 @@ mail 安裝可參考 https://www.linuxpilot.com/open-source-email-server-hands-o
 `Grant All Privileges On *.* To 123@localhost Identified By '456' With Grant Option;`  
 
 # 讓webmin可以外網訪問，這方法不安全慎用  
-> 使用vim   `sudo vim /etc/webmin`  
-> 使用nano  `sudo nano /etc/webmin`  
-> 使用gedit `sudo gedit /etc/webmin`  
+> 使用vim   `sudo vim /etc/webmin//miniserv.conf`  
+> 使用nano  `sudo nano /etc/webmin/miniserv.conf`  
+> 使用gedit `sudo gedit /etc/webmin/miniserv.conf`  
 
 找到 "ssl=1" 把它改成 "ssl=0" ，*1*為啟用*0*為停用。  
 
