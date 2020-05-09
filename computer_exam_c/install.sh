@@ -1,0 +1,1 @@
+sudo apt install apache2 vsftpd openssh-server xinetd telnetd

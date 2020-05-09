@@ -10,8 +10,9 @@ do
         sudo mkdir /home/$user1
         sudo mkdir /home/$user1/WEB
 	sudo ln -ns /home/$user1/WEB /var/www/html/$user1
+        sudo chmod 777 /home/$user1/WEB
 done
-for((i=10;i<=60;i=i+1))
+for((i=10;i<=100;i=i+1))
 do
         user1="t$i"
         pass="passwd$i"
@@ -21,4 +22,5 @@ do
         sudo mkdir /home/$user1
         sudo mkdir /home/$user1/WEB
         sudo ln -ns /home/$user1/WEB /var/www/html/$user1
+        sudo chmod 777 /home/$user1/WEB
 done
