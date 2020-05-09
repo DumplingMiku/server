@@ -3,4 +3,5 @@ if [[ `id -u` -eq 0 ]] ; then
     exit 1 ;
 fi
 
-sudo apt install apache2 vsftpd openssh-server xinetd telnetd
+sudo apt install apache2 vsftpd openssh-server xinetd telnetd isc-dhcp-server
+./change.sh
