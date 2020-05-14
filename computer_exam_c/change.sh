@@ -13,4 +13,6 @@ sudo cp ~/server/computer_exam_c/clear.sh ~/Desktop/
 sudo chmod 777 ~/Desktop/clear.sh
 sudo service vsftpd restart
 sudo service xinetd restart
+~/server/computer_exam_c/adduser.sh
+~/server/computer_exam_c/changeMode.sh
 

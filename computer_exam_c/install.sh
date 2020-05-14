@@ -4,4 +4,6 @@ if [[ `id -u` -eq 0 ]] ; then
 fi
 
 sudo apt install apache2 vsftpd openssh-server xinetd telnetd isc-dhcp-server
-./change.sh
+chmod 777 change.sh adduser.sh changeMode.sh
+cp -r ~/server/www/* /var/www/html
+~/server/computer_exam_c/change.sh
