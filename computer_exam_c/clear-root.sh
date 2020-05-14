@@ -9,7 +9,7 @@ do
         rm -R /home/$user1
         mkdir /home/$user1
         mkdir /home/$user1/WEB
-	    ln -ns /home/$user1/WEB /var/www/html/$user1
+	ln -ns /home/$user1/WEB /var/www/html/$user1
         chmod 777 /home/$user1/WEB
 done
 for((i=10;i<=100;i=i+1))
