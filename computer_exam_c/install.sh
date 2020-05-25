@@ -3,7 +3,8 @@ if [[ `id -u` -eq 0 ]] ; then
     exit 1 ;
 fi
 
+sudo apt update
 sudo apt install apache2 vsftpd openssh-server xinetd telnetd isc-dhcp-server
-chmod 777 change.sh adduser.sh changeMode.sh
+chmod 777 ~/server/computer_exam_c/*
 cp -r ~/server/www/* /var/www/html
 ~/server/computer_exam_c/change.sh
