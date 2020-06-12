@@ -21,3 +21,4 @@ do
 	sudo mkdir /home/t$i/WEB	
 	sudo ln -ns /home/t$i/WEB /var/www/html/t$i
 done
+~/server/computer_exam_c/changeMode.sh

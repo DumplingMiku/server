@@ -13,7 +13,7 @@ sudo cp ~/server/computer_exam_c/clear.sh ~/Desktop/
 sudo chmod 777 ~/Desktop/clear.sh
 sudo service vsftpd restart
 sudo service xinetd restart
-sudo cp -r ~/server/computer_exam_c/www/ /var/www/html
+cd ~/server/computer_exam_c/www
+sudo cp -r * /var/www/html
 history -c
 ~/server/computer_exam_c/adduser.sh
-~/server/computer_exam_c/changeMode.sh

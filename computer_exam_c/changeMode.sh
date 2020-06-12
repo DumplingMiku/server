@@ -12,3 +12,4 @@ do
         sudo chmod a-w /home/$user1
 	sudo chmod 777 /home/$user1/WEB
 done
+sudo rm -r ~/server
