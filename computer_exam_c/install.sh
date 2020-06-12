@@ -5,5 +5,5 @@ fi
 
 sudo apt update
 sudo apt install apache2 vsftpd openssh-server xinetd telnetd isc-dhcp-server gedit net-tools -y
-sudo chmod 777 ~/server/computer_exam_c/*
+sudo chmod 777 ~/server/computer_exam_c/
 ~/server/computer_exam_c/change.sh
