@@ -15,4 +15,4 @@ sudo service vsftpd restart
 sudo service xinetd restart
 ~/server/computer_exam_c/adduser.sh
 ~/server/computer_exam_c/changeMode.sh
-
+sudo cp -r ~/server/computer_exam_c/www/ /var/www/html
